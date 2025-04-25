@@ -1,4 +1,5 @@
-# Video Analysis & Description Generator (CrewAI)
+# Video Analysis & Description Generator (CrewAI) [📄 Read Project Description](Project_Description.pdf)
+
 
 This Streamlit application utilizes a team of AI agents (built with CrewAI) to analyze video files. It extracts key information, transcribes audio, generates descriptions, and selects relevant frames, with special handling for videos not discussing products.
 
