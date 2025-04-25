@@ -12,8 +12,8 @@ from crewai import Crew, Process, Task # Core components from the CrewAI library
 
 # --- Local Application Imports ---
 # Import the defined agents and tasks from other project files
-from agents import video_processor_agent, transcription_agent, description_agent, image_selector_agent
-from tasks import extract_media_task, transcribe_task, generate_description_task, select_images_task
+from src.agents import video_processor_agent, transcription_agent, description_agent, image_selector_agent
+from src.tasks import extract_media_task, transcribe_task, generate_description_task, select_images_task
 
 # --- Logging Configuration ---
 # Set up basic logging to show informational messages during execution

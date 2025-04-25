@@ -1,11 +1,11 @@
 from crewai import Task
-from agents import (
+from src.agents import (
     video_processor_agent,
     transcription_agent,
     description_agent,
     image_selector_agent
 )
-from tools import (
+from src.tools import (
     FrameExtractionTool,
     AudioExtractionTool,
     AudioTranscriptionTool,

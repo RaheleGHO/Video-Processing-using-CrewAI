@@ -21,8 +21,8 @@ import base64 # Add base64 import
 import io # Add io import
 
 # Import functions from existing modules
-from extract_frames import extract_frames as extract_frames_func
-from extract_audio import extract_audio as extract_audio_func
+from src.extract_frames import extract_frames as extract_frames_func
+from src.extract_audio import extract_audio as extract_audio_func
 from transcribe_audio import transcribe as transcribe_audio_func
 # We'll integrate ImageSelector logic directly or adapt its core parts
 

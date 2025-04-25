@@ -1,5 +1,5 @@
 from crewai import Agent
-from tools import (
+from src.tools import (
     FrameExtractionTool,
     AudioExtractionTool,
     AudioTranscriptionTool,
